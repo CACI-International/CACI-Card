@@ -1,0 +1,44 @@
+{
+  "name": "caci",
+  "version": "1.0.0",
+  "description": "A company npx card for CACI International Inc.",
+  "main": "/bin/card.js",
+  "bin": {
+    "caci": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kethinov/caci-card.git"
+  },
+  "homepage": "https://caci.com",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Eric Newport <enewport@caci.com>",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "~4.1.0",
+    "chalk": "~2.4.2",
+    "standard": "~13.0.1"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.registry.github.com/"
+  }
+}
