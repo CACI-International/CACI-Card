@@ -12,7 +12,6 @@
   },
   "homepage": "https://caci.com",
   "scripts": {
-    "prepublish": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
