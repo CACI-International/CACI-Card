@@ -1,8 +1,14 @@
 {
   "name": "caci",
   "description": "A company npx card for CACI International Inc.",
-  "author": "Eric Newport <enewport@caci.com>",
-  "version": "1.0.0",
+  "author": "CACI International Inc (https://github.com/orgs/CACI-International/people)",
+  "contributors": [
+    {
+      "name": "Contributors",
+      "url": "https://github.com/CACI-International/CACI-Card/graphs/contributors"
+    }
+  ],
+  "version": "1.0.1",
   "homepage": "https://caci.com",
   "license": "MIT",
   "main": "/bin/card.js",
@@ -21,7 +27,7 @@
   "devDependencies": {
     "boxen": "~4.1.0",
     "chalk": "~2.4.2",
-    "standard": "~13.0.1"
+    "standard": "~13.0.2"
   },
   "scripts": {
     "build": "node build.js",
