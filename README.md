@@ -18,7 +18,7 @@ npx caci
    │           Web:  https://caci.com                                                   │
    │                                                                                    │
    │                 We're hiring!                                                      │
-   │                 Find your innovation and imagination at https://careers.caci.com   │
+   │                 Find your innovation and imagination at https://www.caci.jobs      │
    │                                                                                    │
    │          Card:  npx caci                                                           │
    │                                                                                    │

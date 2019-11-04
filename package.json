@@ -8,7 +8,7 @@
       "url": "https://github.com/CACI-International/CACI-Card/graphs/contributors"
     }
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://caci.com",
   "license": "MIT",
   "main": "/bin/card.js",
