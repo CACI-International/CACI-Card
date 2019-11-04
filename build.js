@@ -16,7 +16,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.cyan('CACI-International'),
   linkedin: chalk.gray('https://linkedin.com/company/') + chalk.cyan('caci-international-inc'),
   web: chalk.cyan('https://caci.com'),
-  hiring: chalk.red('              We\'re hiring!\n              Find your innovation and imagination at https://careers.caci.com'),
+  hiring: chalk.red('              We\'re hiring!\n              Find your innovation and imagination at https://www.caci.jobs'),
   npx: chalk.white('npx') + ' ' + chalk.white('caci'),
   labelWork: chalk.gray.bold('      About:'),
   labelTwitter: chalk.gray.bold('    Twitter:'),
